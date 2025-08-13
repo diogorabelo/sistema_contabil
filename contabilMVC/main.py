@@ -20,6 +20,7 @@ def main():
     controller_caixa.mostrar_saldo()
     controller_emprestimo.mostrar_saldo()
 
+    view.executar() #aqui roda o loop do Pyqt5/
 
 if __name__ == "__main__":
     main()
